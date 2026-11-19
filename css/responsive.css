@@ -1,0 +1,13 @@
+@media (min-width: 768px) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  nav {
+    grid-column: 1 / -1;
+  }
+  article {
+    margin-bottom: 0;
+  }
+}

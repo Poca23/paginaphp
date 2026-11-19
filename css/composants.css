@@ -1,0 +1,29 @@
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+nav a {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid var(--couleur);
+  border-radius: 4px;
+  color: var(--couleur);
+  text-decoration: none;
+}
+nav a[aria-current] {
+  background: var(--couleur);
+  color: #fff;
+}
+article {
+  background: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+time {
+  font-size: 0.85rem;
+  color: #666;
+}

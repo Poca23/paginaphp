@@ -1,0 +1,25 @@
+:root {
+  --couleur: #3b5bdb;
+  --fond: #f8f9fa;
+  --texte: #212529;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: var(--fond);
+  color: var(--texte);
+  line-height: 1.5;
+}
+header,
+footer {
+  text-align: center;
+  padding: 1rem;
+}
+main {
+  padding: 1rem;
+  max-width: 1100px;
+  margin: auto;
+}
